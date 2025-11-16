@@ -62,5 +62,5 @@ Open http://localhost:5173 in your browser to view the project.
 ```
 ##Author
 
-Sanju Singh
-LinkedIn: ![sanjitsingh004](https://www.linkedin.com/in/sanjitsingh004/)
+Sanjit Kumar Singh
+
