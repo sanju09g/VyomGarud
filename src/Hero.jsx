@@ -58,9 +58,9 @@ function Hero() {
         </header>
 
         <div className="video-container">
-          <video src="/space.mp4" muted loop autoPlay playsInline className="active"></video>
+          <video src="/drone01.mp4" muted loop autoPlay playsInline className="active"></video>
+          <video src="/drone02.mp4" muted loop playsInline></video>
           <video src="/dr2.mp4" muted loop playsInline></video>
-          <video src="/dr4.mp4" muted loop playsInline></video>
         </div>
 
         <div className="overlay" id="home"></div>

@@ -1,8 +1,6 @@
 
 import About from './About'
-import './App.css'
 import Capabilities from './Capabilities'
-
 import Footer from './Footer'
 import Hero from './Hero'
 import Highlights from './Highlights'
