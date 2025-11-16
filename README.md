@@ -2,13 +2,6 @@
 
 ![VyomGarud Logo](https://github.com/sanju09g/VyomGarud/blob/main/public/image.png)
 
-## Screenshots
-
-![Hero Section](https://github.com/sanju09g/VyomGarud/blob/main/screenshots/hero.png)  
-![About Section](https://github.com/sanju09g/VyomGarud/blob/main/screenshots/about.png)  
-![Products Section](https://github.com/sanju09g/VyomGarud/blob/main/screenshots/products.png)  
-![Contact Section](https://github.com/sanju09g/VyomGarud/blob/main/screenshots/contact.png)  
-
 ---
 
 ## Overview
@@ -36,6 +29,18 @@ VyomGarud is a modern and responsive **React UI** built for a drone manufacturin
 
 ---
 
+
+Live Demo
+
+https://gregarious-starship-42af18.netlify.app/
+
+## Screenshots
+
+![Hero Section](https://github.com/sanju09g/VyomGarud/blob/main/screenshots/hero.png)  
+![About Section](https://github.com/sanju09g/VyomGarud/blob/main/screenshots/about.png)  
+![Products Section](https://github.com/sanju09g/VyomGarud/blob/main/screenshots/products.png)  
+![Contact Section](https://github.com/sanju09g/VyomGarud/blob/main/screenshots/contact.png)  
+
 ## Installation
 
 1. **Clone the repository**
@@ -53,9 +58,9 @@ Start the development server
 npm run dev
 Open http://localhost:5173 in your browser to view the project.
 
-Live Demo
-https://gregarious-starship-42af18.netlify.app/
 
-Author
+```
+##Author
+
 Sanju Singh
-LinkedIn : ![sanjitsingh004](https://www.linkedin.com/in/sanjitsingh004/)
+LinkedIn: ![sanjitsingh004](https://www.linkedin.com/in/sanjitsingh004/)
