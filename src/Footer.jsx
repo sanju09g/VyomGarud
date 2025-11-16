@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
   return <>
   
-  <footer class="footer">
+  <footer class="footer" id="footer">
   <div class="footer-container">
 
     <div class="footer-left">
@@ -15,16 +15,16 @@ function Footer() {
     </div>
 
     <div class="footer-links">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Contact</a>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#footer">Contact</a>
     </div>
 
     <div class="footer-social">
-      <a href="#">Instagram</a>
-      <a href="#">LinkedIn</a>
-      <a href="#">Twitter</a>
+      <a href="https://github.com/sanju09g">Github</a>
+      <a href="https://www.linkedin.com/in/sanjitsingh004/">LinkedIn</a>
+      
     </div>
 
   </div>

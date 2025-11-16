@@ -1,10 +1,27 @@
-import React from 'react';
+import React,{ useEffect, useRef } from 'react';
 import "./Capabilities.css";
 
 function Capabilities() {
-    return ( <section class="products">
+
+  const headingRef = useRef(null);
+
+  useEffect(() => {
+      const observer = new IntersectionObserver(
+          ([entry]) => {
+              if (entry.isIntersecting) {
+                  headingRef.current.classList.add("fade-visible");
+              }
+          },
+          { threshold: 0.4 }
+      );
+
+      observer.observe(headingRef.current);
+  }, []);
+
+    return ( <section class="products" id='products'>
         <div class="products-container">
-        <div class="products-header">
+        <div  className="products-header fade-trigger"
+                    ref={headingRef}>
             <h1>Our Products</h1>
             <p>Advanced UAV Systems Designed for Performance & Precision</p>
           </div>
@@ -13,7 +30,7 @@ function Capabilities() {
           <div class="product-grid">
       
             <div class="product-card">
-              <img src="https://via.placeholder.com/450x300" alt="Drone Model" />
+              <img src="/drone2.jpg" alt="Drone Model" />
               <h2>VG-Aquila X1</h2>
               <p class="tagline">Long-range Tactical UAV</p>
       
@@ -28,7 +45,7 @@ function Capabilities() {
             </div>
       
             <div class="product-card">
-              <img src="https://via.placeholder.com/450x300" alt="Drone Model" />
+              <img src="/drone.webp" alt="Drone Model" />
               <h2>VG-Falcon Pro</h2>
               <p class="tagline">AI-Powered Surveillance Drone</p>
       
@@ -44,7 +61,7 @@ function Capabilities() {
       
        
             <div class="product-card">
-              <img src="https://via.placeholder.com/450x300" alt="Drone Model" />
+              <img src="/drone3.jpg" alt="Drone Model" />
               <h2>VG-Ranger S2</h2>
               <p class="tagline">Compact Field-Ops Drone</p>
       
@@ -95,7 +112,7 @@ function Capabilities() {
           <div class="products-cta">
             <h3>Need a Custom Drone?</h3>
             <p>We build mission-specific drones for defense, surveillance, and mapping.</p>
-            <a href="#" class="cta-btn">Contact Sales</a>
+            <a href="#footer" class="cta-btn">Contact Sales</a>
           </div>
       
         </div>
