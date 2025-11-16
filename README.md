@@ -1,16 +1,61 @@
-# React + Vite
+# VyomGarud - Web Developer Intern Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![VyomGarud Logo](https://github.com/sanju09g/VyomGarud/blob/main/public/image.png)
 
-Currently, two official plugins are available:
+## Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Hero Section](https://github.com/sanju09g/VyomGarud/blob/main/screenshots/hero.png)  
+![About Section](https://github.com/sanju09g/VyomGarud/blob/main/screenshots/about.png)  
+![Products Section](https://github.com/sanju09g/VyomGarud/blob/main/screenshots/products.png)  
+![Contact Section](https://github.com/sanju09g/VyomGarud/blob/main/screenshots/contact.png)  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Overview
+VyomGarud is a modern and responsive **React UI** built for a drone manufacturing company. This UI showcases the products, highlights, features, and company information with a clean dark-themed aesthetic. It is designed with **React (Vite)** and **CSS**, focusing on usability, smooth animations, and a modern look and feel.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- **Responsive Layout:** Optimized for desktop, tablet, and mobile screens.
+- **Dark Mode Aesthetic:** Smooth dark theme with contrast-friendly typography.
+- **Products Section:** Showcase drone products with images, descriptions, and CTA buttons.
+- **Highlights & Metrics:** Display company highlights, achievements, and awards with subtle animations.
+- **About Section:** Mission, vision, and values with modern card layouts.
+- **Team Section:** Profile cards with hover effects.
+- **Smooth Animations:** Fade and slide animations for elements as you scroll.
+- **CTA Sections:** Call-to-action areas to encourage user engagement.
+- **Footer:** Social links, company info, and navigation.
+
+---
+
+## Tech Stack
+- **Frontend:** React (Vite)
+- **Styling:** CSS (with CSS variables for primary, secondary, and tertiary colors)
+- **Animations:** CSS keyframes for fade, slide, and hover effects
+
+---
+
+## Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/sanju09g/VyomGarud.git
+Navigate to the project folder
+
+cd VyomGarud
+Install dependencies
+
+
+npm install
+Start the development server
+
+npm run dev
+Open http://localhost:5173 in your browser to view the project.
+
+Live Demo
+https://gregarious-starship-42af18.netlify.app/
+
+Author
+Sanju Singh
+LinkedIn : ![sanjitsingh004](https://www.linkedin.com/in/sanjitsingh004/)
