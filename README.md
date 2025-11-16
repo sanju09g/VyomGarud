@@ -1,5 +1,6 @@
 # VyomGarud - Web Developer Intern Assessment
 
+## Logo
 ![VyomGarud Logo](https://github.com/sanju09g/VyomGarud/blob/main/public/image.png)
 
 ---
