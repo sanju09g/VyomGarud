@@ -25,8 +25,12 @@ function Hero() {
 
     thumbnails.forEach((thumbnail, index) => {
       thumbnail.addEventListener("click", () => {
-        document.querySelector(".video-container video.active").classList.remove("active");
-        document.querySelector(".thumbnails .item.active").classList.remove("active");
+        document
+          .querySelector(".video-container video.active")
+          .classList.remove("active");
+        document
+          .querySelector(".thumbnails .item.active")
+          .classList.remove("active");
         videos[index].classList.add("active");
         videos[index].play();
         thumbnail.classList.add("active");
@@ -42,14 +46,29 @@ function Hero() {
 
           <nav className="navbar">
             <ul className={`nav__links ${menuActive ? "active" : ""}`}>
-              <li className="link"><a href="#home">Home</a></li>
-              <li className="link"><a href="#about">About Us</a></li>
-              <li className="link"><a href="#products">Products</a></li>
-              <li className="link"><a href="#highlights">Highlights</a></li>
-              <li className="link"><a href="#footer" id="nav__btn">Contact</a></li>
+              <li className="link">
+                <a href="#home">Home</a>
+              </li>
+              <li className="link">
+                <a href="#about">About Us</a>
+              </li>
+              <li className="link">
+                <a href="#products">Products</a>
+              </li>
+              <li className="link">
+                <a href="#highlights">Highlights</a>
+              </li>
+              <li className="link">
+                <a href="#footer" id="nav__btn">
+                  Contact
+                </a>
+              </li>
             </ul>
 
-            <div className="hamburger" onClick={() => setMenuActive(!menuActive)}>
+            <div
+              className="hamburger"
+              onClick={() => setMenuActive(!menuActive)}
+            >
               <span></span>
               <span></span>
               <span></span>
@@ -58,7 +77,14 @@ function Hero() {
         </header>
 
         <div className="video-container">
-          <video src="/drone01.mp4" muted loop autoPlay playsInline className="active"></video>
+          <video
+            src="/drone01.mp4"
+            muted
+            loop
+            autoPlay
+            playsInline
+            className="active"
+          ></video>
           <video src="/drone02.mp4" muted loop playsInline></video>
           <video src="/dr2.mp4" muted loop playsInline></video>
         </div>
@@ -68,7 +94,8 @@ function Hero() {
           <h2>Never Stop</h2>
           <h3>Innovating Drone Tech</h3>
           <p className="mute">
-            Our technology combines military-grade engineering with intelligent autonomy for the future of aerial defense
+            Our technology combines military-grade engineering with intelligent
+            autonomy for the future of aerial defense
           </p>
           <a href="#">Explore</a>
         </div>

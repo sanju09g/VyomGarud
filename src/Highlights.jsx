@@ -6,12 +6,10 @@ function Highlights() {
     <>
       <section className="highlights" id="highlights">
         <div className="highlights-container">
-
           <div className="highlights-header fade-up">
             <h1>Our Highlights</h1>
             <p>Excellence in UAV Engineering & Autonomous Flight Systems</p>
           </div>
-
 
           <div className="highlights-grid">
             <div className="highlight-box fade-box">

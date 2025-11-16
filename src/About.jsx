@@ -19,16 +19,16 @@ function About() {
 
   return (
     <>
-      <section class="about" id="about">
-        <div class="about-container">
-          <div class="about-header reveal">
+      <section className="about" id="about">
+        <div className="about-container">
+          <div className="about-header reveal">
             <h1>About VyomGarud</h1>
             <p>Engineering the Future of Intelligent Aerial Systems</p>
           </div>
 
-          <div class="about-content reveal">
-            <img src="/drone.webp" alt="Drone" class="about-img" />
-            <div class="about-text">
+          <div className="about-content reveal">
+            <img src="/drone.webp" alt="Drone" className="about-img" />
+            <div className="about-text">
               <h2>Who We Are</h2>
               <p>
                 VyomGarud is a next-generation aerospace startup dedicated to
@@ -38,19 +38,19 @@ function About() {
             </div>
           </div>
 
-          <div class="mv-section reveal">
-            <div class="mv-box">
+          <div className="mv-section reveal">
+            <div className="mv-box">
               <h3>Our Mission</h3>
               <p>To create powerful aerial systems ...</p>
             </div>
 
-            <div class="mv-box">
+            <div className="mv-box">
               <h3>Our Vision</h3>
               <p>To become a global leader ...</p>
             </div>
           </div>
 
-          <div class="values reveal">
+          <div className="values reveal">
             <h2>Core Values</h2>
             <ul>
               <li>Innovation</li>
@@ -61,7 +61,7 @@ function About() {
             </ul>
           </div>
 
-          <div class="why reveal">
+          <div className="why reveal">
             <h2>Why Choose Us</h2>
             <p>With cutting-edge UAV designs...</p>
             <ul>
@@ -73,28 +73,28 @@ function About() {
             </ul>
           </div>
 
-          <div class="team reveal">
+          <div className="team reveal">
             <h2>Our Team</h2>
-            <div class="team-cards">
-              <div class="team-card">
+            <div className="team-cards">
+              <div className="team-card">
                 <h4>Team Member</h4>
                 <p>Drone Engineer</p>
               </div>
-              <div class="team-card">
+              <div className="team-card">
                 <h4>Team Member</h4>
                 <p>Software Architect</p>
               </div>
-              <div class="team-card">
+              <div className="team-card">
                 <h4>Team Member</h4>
                 <p>Flight Ops Lead</p>
               </div>
             </div>
           </div>
 
-          <div class="cta-box reveal">
+          <div className="cta-box reveal">
             <h3>Want to work with us?</h3>
             <p>Let’s build the future of UAV technology.</p>
-            <a href="#" class="cta-btn">
+            <a href="#" className="cta-btn">
               Contact Us
             </a>
           </div>
